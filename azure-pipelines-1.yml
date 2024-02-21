@@ -13,7 +13,7 @@ stages:
 - stage: A
   displayName: A
   jobs:
-  - job: Build App
+  - job: Build-App
     displayName: Build application
     steps:
       - script: echo building the app
@@ -21,7 +21,7 @@ stages:
 - stage: B
   displayName: B
   jobs:
-  - job: Test App
+  - job: Test-App
     displayName: Test application
     steps:
       - script: echo testing the app
