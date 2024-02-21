@@ -19,6 +19,7 @@ stages:
       - script: echo building the app
         displayName: building app
 - stage: B
+  dependsOn: []
   displayName: B
   jobs:
   - job: TestApp
